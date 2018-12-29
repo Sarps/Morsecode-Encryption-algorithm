@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap 3, from LayoutIt!</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+		
+				<div class="row  top1">
+      <div class="col top2"></div>
+      <div class="col-6 top2">
+        
+          <label>Original Data/Ciphertext</label>
+          <textarea  class="form-control top3" id="data" style="height:100px" ></textarea>
+      </div>
+      <div class="col top2"></div>
+    </div>
+    
+<br/>
+<br/>
+    
+    <div class="row ">
+        <div class="col"></div>
+        <div class="col-6">
+          
+            <label>Key</label><input type="text"  id="key" class="form-control" />
+                
+              
+        </div>
+        <div class="col"></div>
+      </div>
+
+      <br/>
+      <br/>
+
+      <div class="row ">
+          <div class="col"></div>
+          <div class="col-6">
+              <button class="btn btn-primary" onclick="encrypt();">Encrypt </button>
+               <button class="btn btn-primary" onclick="decrypt();" > Decrypt</button>
+              
+          </div>
+          <div class="col"> </div>
+        </div>
+ 
+        <br/>
+        <br/>
+
+
+      <div class="row ">
+          <div class="col"></div>
+          <div class="col-6">
+            
+              <label>Output Data</label><textarea  id="output" class="form-control" style="height:100px" disabled>
+                  
+                </textarea>
+          </div>
+          <div class="col"></div>
+        </div>
+		</div>
+	</div>
+</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
